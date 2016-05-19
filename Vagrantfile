@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "https://github.com/gowrishdba/HadoopInstallCookbook/rhel6-goldbox.box"
+  config.vm.box_url = "https://github.com/coderdbacode/HadoopInstallCookbook/rhel6-goldbox.box"
 
   # Assign this VM to a host-only network IP, allowing you to access it
   # via the IP. Host-only networks can talk to the host machine as well as
@@ -44,7 +44,6 @@ Vagrant.configure("2") do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-  # Gowrish - --memory parameter changed to 512
    config.vm.provider :virtualbox do |vb|
   #   # Don't boot with headless mode
   #   vb.gui = true
